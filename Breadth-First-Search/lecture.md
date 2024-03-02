@@ -1,44 +1,24 @@
-## BREADTH FIRST SEARCH 
-### Title Slide
- * Title: Exploring Breadth First Search
- * Subtitle: An Introduction to BFS Algorithm
- * Visual: Illustration of a graph/tree with nodes and edges.
+# BREADTH FIRST SEARCH 
 
-### Overview of BFS
- * Title: What is Breadth First Search?
- * Content:
- * Brief explanation of BFS algorithm.
- * Purpose: To systematically explore a graph or 
- * How it works: Explore all neighbors of a node before moving to the next level.
- * Visual: Diagram illustrating BFS traversal on a graph.
+## What is Breadth First Search?
+Breadth-first search (BFS) is a graph traversal algorithm that explores a graph level by level.
+Starting from a selected node, it explores all the neighboring nodes at the current depth before moving on to the nodes at the next depth level.
+This ensures that it visits all nodes at a given depth before moving deeper into the graph.
+BFS is often used to find the shortest path between two nodes in an unweighted graph, among other applications.
 
-###  BFS Steps (1/2)
- * Title: Steps of Breadth First Search
- * Content:
+
+## Breadth First Search Algorithm
  * Step 1: Start with a node (usually the root node).
  * Step 2: Explore all neighbors of the current node.
  * Step 3: Enqueue unvisited neighbors into a queue.
- * Visual: Sequential illustration of BFS steps with nodes and queues
 
  ![example](1.png)
  
- ### BFS Steps (2/2)
  * Step 4: Dequeue the current node and repeat steps 2 and 3 for its unvisited neighbors.
  * Step 5: Mark visited nodes to avoid revisiting.
  * Step 6: Continue until the queue is empty.
 
- ### Example Of BFS
- * Title: Example of Breadth First Search
- *  Content:
- *  Present a simple graph with nodes and edges.
- *  Demonstrate BFS traversal using the graph.
- *  Show the order of nodes visited during traversal.
- * Visual: Graph illustration with BFS traversal path highlighted.
-
- ### Applications of BFS
- * Title: Applications of Breadth First Search
- * Content:
- * Discuss various real-world applications of BFS:
+ ### Applications of Breadth First Search
  * Shortest path finding.
  * Network analysis.
  * Web crawling.

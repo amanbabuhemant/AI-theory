@@ -4,12 +4,12 @@
  ![example](1.png)
 
  ## Applications of NLP
-    - Language Translation
-    - Speech Recognition
-    - Text Summarization
-    - Analysis
-    - AES
-    - Email Filters
+- Language Translation
+- Speech Recognition
+- Text Summarization
+- Analysis
+- AES
+- Email Filters
 
 ## Components of NLP
 > Natural language processing (NLP) involves various components that work together to process and understand human language. Some of the key components of NLP include:
@@ -45,4 +45,4 @@ Generating human-like text based on input data or predefined rules.
 #### 10. Language modeling: 
 Building statistical models to predict and generate text based on patterns in language data.
 
-> By- _Khushi Singhal_  
+> By- [Khushi Singhal](https://GitHub.com/khushi1298)
